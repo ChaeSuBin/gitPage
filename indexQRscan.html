@@ -18,8 +18,9 @@
                       console.log(content);
 			$('#message').text( content );
 			
-			let reciving = text(content);
-			$('#i_address').val(reciving);
+			let reciving = $('#message').val();
+			$('#i_address').val() = reciving;
+			console.log(reciving);
 			
 			// $('#fromaddress').val(privateKey);
 			// <input id="myField" type="text" name="email"/>
